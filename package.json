@@ -1,0 +1,25 @@
+{
+  "name": "system_login",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido para realizar a criação de uma conta ou entrar em uma existente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorgabrieldev/system_login.git"
+  },
+  "author": "Vitor Gabriel De Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorgabrieldev/system_login/issues"
+  },
+  "homepage": "https://github.com/vitorgabrieldev/system_login#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  }
+}

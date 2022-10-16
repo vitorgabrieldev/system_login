@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Chat</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- === Cdn jquery / socket.io(front end) === -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js" integrity="sha512-iWPnCISAd/J+ZacwV2mbNLCaPGRrRo5OS81lKTVPtRg1wGTC20Cfmp5Us5RcbLv42QLdbAWl0MI57yox5VecQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- ===== Style sheets ===== -->
+        <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!-- ===== Components ===== -->
+
+    <form id="chat">
+        <input type="text" name="name" placeholder="Digite seu nome">
+        <div class="message"></div>
+        <input type="text" name="name" placeholder="Digite sua mensagem">
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
