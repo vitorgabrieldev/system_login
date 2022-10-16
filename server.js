@@ -17,4 +17,8 @@ app.use('/', (req, res) => {
     res.render('index.html');
 });
 
+io.on('connection', socket => {
+    console.log(`socket conectado: ${socket.id} `) 
+});
+
 server.listen(3000);
